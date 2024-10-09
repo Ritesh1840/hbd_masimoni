@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Birthday</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Birthday heading and message -->
+    <h1 class="birthday-heading">Happy Birthday Masimoni! 🥳</h1>
+    <p class="birthday-message">Happy Birthday to the most wonderful Masimoni in the world! 💖 You are a true blessing in my life, filling every moment with love, laughter, and warmth. Your kindness, wisdom, and beautiful heart inspire me every day. May this special day bring you endless joy, sweet memories, and all the happiness you deserve. Keep shining brightly and spreading your love wherever you go. I’m so lucky to have you in my life! 🌸🎉 Wishing you a birthday as amazing as you are! 💕"</p> <!-- Gallery heading -->
+    <h2 class="gallery-heading">Some pictures of my Masimoni 💖🥰<br><br></h2>
+    
+    <!-- Container for the rotating images -->
+    <div class="image-container">
+      <span style="--i: 1">
+        <img src="photo1.jpg" alt="photo1">
+      </span>
+      <span style="--i: 2">
+        <img src="photo2.jpg" alt="photo2">
+      </span>
+      <span style="--i: 3">
+        <img src="photo3.jpg" alt="photo3">
+      </span>
+      <span style="--i: 4">
+        <img src="photo4.jpg" alt="photo4">
+      </span>
+      <span style="--i: 5">
+        <img src="Photo5.jpg" alt="photo5">
+      </span>
+      <span style="--i: 6">
+        <img src="photo6.jpg" alt="photo6">
+      </span>
+      <span style="--i: 7">
+        <img src="photo7.jpg" alt="photo7">
+      </span>
+      <span style="--i: 8">
+        <img src="photo8.jpg" alt="photo8">
+      </span>
+    </div>
+    
+    <!-- Modal for image pop-up -->
+    <div class="modal" id="modal">
+      <span class="close" id="close">&times;</span>
+      <img class="modal-content" id="modal-img" />
+    </div>
+    
+    <!-- Container for the control buttons -->
+    <div class="btn-container">
+      <button class="btn" id="prev">Prev</button>
+      <button class="btn" id="next">Next</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
